@@ -24,7 +24,6 @@ public class LessonA {
     public String up1()
     {
         String x = "Hello world";
-
         return x;
     }
 
