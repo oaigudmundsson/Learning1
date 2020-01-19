@@ -10,6 +10,11 @@ public class LessonA2 {
         return hello;
     }
 
+    public String up3(String myString, boolean x)
+    {
+
+    }
+
     public static void main(String args[]) {
         LessonA2 lesson = new LessonA2();
 
@@ -23,6 +28,10 @@ public class LessonA2 {
         // up2. Create a function return bool. Required 1 param as int
         // Return True if param is bigger than 10, else False
 
+
+        // up3. Use returned value from up1. Create a function that take 2 params: myString, bool (True/False)
+        // If param2 is True: Return length of param1 as String. Else return param1 as is
+        lesson.up3(a, false);
     }
 
 }
